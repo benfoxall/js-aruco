@@ -27,7 +27,7 @@ References:
   http://www.cfar.umd.edu/~daniel/daniel_papersfordownload/CoplanarPts.pdf
 */
 
-var POS = POS || {};
+export var POS = {};
 
 POS.Posit = function(modelSize, focalLength){
   this.objectPoints = this.buildModel(modelSize);

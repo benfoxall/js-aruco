@@ -26,7 +26,9 @@ References:
   http://www.uco.es/investiga/grupos/ava/node/26
 */
 
-var AR = AR || {};
+import {CV} from './cv.js';
+
+export var AR = {};
 
 AR.Marker = function(id, corners){
   this.id = id;

@@ -28,7 +28,7 @@ References:
   http://incubator.quasimondo.com/processing/fast_blur_deluxe.php
 */
 
-var CV = CV || {};
+export var CV = {};
 
 CV.Image = function(width, height, data){
   this.width = width || 0;

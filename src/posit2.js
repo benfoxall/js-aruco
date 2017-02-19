@@ -27,7 +27,7 @@ References:
   http://www.aforgenet.com/articles/posit/
 */
 
-var POS = POS || {};
+export var POS = {};
 
 POS.Posit = function(modelSize, focalLength){
   this.model = this.buildModel(modelSize);
