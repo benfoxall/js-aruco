@@ -1,3 +1,4 @@
 {
+  "name": "js-aruco",
   "main": "src/aruco.js"
 }
