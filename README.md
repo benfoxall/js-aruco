@@ -1,3 +1,15 @@
+This fork of js-aruco uses es2015 module syntax allowing you to use a single import statement:
+
+```js
+import {AR} from '../js-aruco/main.js'
+
+
+// pose estimators can be imported from POS1 or POS2
+import {AR, CV, POS1 as POS} from '../js-aruco/main.js'
+```
+
+---
+
 **js-aruco** is a port to JavaScript of the ArUco library.
 
 [ArUco](http://www.uco.es/investiga/grupos/ava/node/26) is a minimal library for Augmented Reality applications based on OpenCv.
