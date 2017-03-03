@@ -8,6 +8,12 @@ import {AR} from '../js-aruco/main.js'
 import {AR, CV, POS1 as POS} from '../js-aruco/main.js'
 ```
 
+This repo also has a basic `package.json`, allowing installation through npm/yarn:
+
+```
+yarn add -D https://github.com/benfoxall/js-aruco.git
+```
+
 ---
 
 **js-aruco** is a port to JavaScript of the ArUco library.
