@@ -27,6 +27,8 @@ References:
   http://www.cfar.umd.edu/~daniel/daniel_papersfordownload/CoplanarPts.pdf
 */
 
+import {SVD} from './svd.js'
+
 export var POS = {};
 
 POS.Posit = function(modelSize, focalLength){

@@ -27,6 +27,8 @@ References:
   http://www.aforgenet.com/articles/posit/
 */
 
+import {SVD} from './svd.js'
+
 export var POS = {};
 
 POS.Posit = function(modelSize, focalLength){
